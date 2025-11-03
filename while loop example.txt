@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(){
+    int N;
+    printf ("PLEASE ENTER YOUR N VALUE == ");
+    scanf ("%d" ,&N);
+
+    
+    int i =0;
+    while (i <=N){
+        printf ("%d\n",i);
+        i++;
+    }
+    return 0;
+}

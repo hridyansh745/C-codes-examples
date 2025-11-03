@@ -1,0 +1,23 @@
+ #include <stdio.h>
+#include<math.h>
+// for power 
+
+int main() {
+    int a;
+printf ("enter a =");
+scanf ("%d",&a);
+
+int b;
+printf("enter b =");
+scanf ("%d", &b);
+
+
+int power = pow (a,b);
+printf ("%d",power);
+scanf ("%d", &power);
+
+printf ("your whole to the power value\n radhe radhe =:%d",pow );
+
+    return 0;
+}
+ 

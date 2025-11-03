@@ -1,0 +1,22 @@
+// bill
+#include <stdio.h>
+
+int main() {
+int sugar;
+printf("enter sugar here =  ");
+scanf ("%d",&sugar);
+
+int tea;
+printf ("enter tea here =  ");
+scanf ("%d",&tea);
+
+int kaju;
+printf ("enter kaju here = ");
+scanf ("%d",&kaju);
+
+printf ("TOTAL BILL=: %d",sugar+tea+kaju);
+printf ("\nTHANK YOU ");
+    printf ("\nHAVE A GOOD DAY");
+    
+    return 0;
+}

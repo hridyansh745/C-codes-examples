@@ -1,0 +1,15 @@
+#include <stdio.h>
+// TO FIND PERIMETER OF RECTANGLE
+int main (){
+    int length;
+    printf ("enter length a=");
+    scanf ("%d",&length);
+    
+int breadth;
+printf ("enter breadth b=");
+scanf ("%d", &breadth);
+
+printf ("perimeter is :%d",length  + breadth );
+
+return 0;
+}

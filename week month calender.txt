@@ -1,0 +1,80 @@
+#include<stdio.h>
+
+int main (){
+     
+     int day; //1=mon;2=tue ,3=wed
+     printf("enter day (1-31)== ");
+     scanf ("%d",&day);
+     
+     switch (day){
+         case 1 : printf ("MONDAY \n");
+               break ;
+         case 2 : printf ("TUESDAY \n");
+               break ;
+         case 3 : printf ("WEDENSDAY \n");
+               break ;
+        case 4  : printf ("THRUSDAY \n");
+               break ;
+        case 5 : printf ("FRIDAY \n");
+               break ;
+      case 6: printf ("SATURDAY\n");
+               break ;
+        case 7 : printf ("SUNDAY \n");
+               break ;
+        
+     
+      case 8 : printf ("MONDAY \n");
+               break ;
+         case 9 : printf ("TUESDAY \n");
+               break ;
+         case 10 : printf ("WEDENSDAY \n");
+               break ;
+        case 11 : printf ("THRUSDAY \n");
+               break ;
+        case 12 : printf ("FRIDAY \n");
+               break ;
+      case 13: printf ("SATURDAY\n");
+               break ;
+        case 14 : printf ("SUNDAY \n");
+               break ;
+               
+      case 15 : printf ("MONDAY \n");
+               break ;
+         case 16: printf ("TUESDAY \n");
+               break ;
+         case 17 : printf ("WEDENSDAY \n");
+               break ;
+        case 18: printf ("THRUSDAY \n");
+               break ;
+        case 19 : printf ("FRIDAY \n");
+               break ;
+      case 20: printf ("SATURDAY\n");
+               break ;
+        case 21: printf ("SUNDAY \n");
+               break ;
+               
+      case 22 : printf ("MONDAY \n");
+               break ;
+         case 23 : printf ("TUESDAY \n");
+               break ;
+         case 24 : printf ("WEDENSDAY \n");
+               break ;
+        case 25 : printf ("THRUSDAY \n");
+               break ;
+        case 26 : printf ("FRIDAY \n");
+               break ;
+      case 27 :printf ("SATURDAY\n");
+               break ;
+        case 28 : printf ("SUNDAY \n");
+               break ;
+               
+      case 29 : printf ("MONDAY \n");
+               break ;
+         case 30 : printf ("TUESDAY \n");
+               break ;
+         case 31 : printf ("WEDENSDAY \n");
+               break ;
+
+}
+return 0;
+}

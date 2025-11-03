@@ -1,0 +1,16 @@
+#include<stdio.h>
+//TO FIND AREA OF TRIANGLE
+int main(){
+    
+    int base;
+    printf("enter base");
+    scanf ("%d",&base);
+    
+    int height;
+    printf("enter height");
+    scanf ("%d",&height);
+    
+    printf ("area of triangle: %d",  height*base/2);
+    return 0;
+    
+}

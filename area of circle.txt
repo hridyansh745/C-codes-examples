@@ -1,0 +1,10 @@
+#include<stdio.h>
+// TO FIND THE RADIUS OF CIRCLE
+ int main(){
+     float radius;
+     printf ("enter radius");
+     scanf ("%f", &radius);
+     
+     printf ("area is :%F", 3.14 *radius*radius);
+     return 0;
+ }

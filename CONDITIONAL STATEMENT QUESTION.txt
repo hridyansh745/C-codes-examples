@@ -1,0 +1,32 @@
+int main(){
+ int AGE;
+ printf ("ENTER AGE HERE =");
+ scanf ("%d",&AGE);
+
+ if(AGE>=18){
+     printf("YOU ARE A ADULT AND ,\n");
+     printf("YOU CAN HAVE A DRIVING LICSENCE\n");
+ }
+ 
+ else if(AGE<17 && AGE>=13){
+     printf("YOU ARE A TEEN AGER \n");
+ }
+ 
+  else if(AGE<12 && AGE>5){
+     printf("YOU ARE A GOING TO BECOME TEENAGER \n");
+ }
+ 
+  else if(AGE<=5 && AGE>=1){
+     printf("YOU ARE A BABY \n");
+ }
+     else{
+printf("YOU ARE NOT ADULT AND:\n");
+printf("YOU DO NOT HAVE YOUR OWN DRIVING LISENCE\n");
+ }
+ 
+ int thank;
+ printf("HAVE A GOOD DAY ");
+ scanf ("%d",&thank);
+ 
+ return 0;
+ }

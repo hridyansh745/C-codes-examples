@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include<math.h>
+
+int main(){
+    
+    int sunday;
+    printf("enter sunday =" );
+    scanf ("%d",&sunday);
+    
+    int snowing;
+    printf ("enter if snowing =");
+    scanf ("%d", &snowing);
+    
+    printf ("%d \n",sunday && snowing == 1);
+    return 0;
+}

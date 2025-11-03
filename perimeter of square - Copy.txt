@@ -1,0 +1,15 @@
+#include <stdio.h>
+//perimeter of square
+int main (){
+    int length;
+    printf ("enter length ");
+    scanf ("%d",&length);
+    
+    int breadth;
+    printf ("enter breadth");
+    scanf ("%d",&breadth);
+    
+    printf ("perimeter is =:%d", 2*length+2*breadth );
+    
+    return 0;
+}

@@ -1,0 +1,55 @@
+#include<stdio.h>
+
+int main(){
+
+int percentage;
+printf ("ENTER YOUR CHILD PERCENTAGE === ");
+scanf ("%d",&percentage);
+
+if (percentage<=100 && percentage >=90){
+    printf ("\nGRADE == A+ \n\nBEHAVIOUR == EXCELLENT BOY\n\n");
+}
+ 
+ else if (percentage<=89 && percentage >=80){
+     printf ("\nGRADE == A\n\nBEHAVIOUR == VERY GOOD BOY\n\n");
+ }
+ 
+ else if (percentage<=79 && percentage >=70){
+     printf ("\nGRADE == B+\n\nBEHAVIOUR == GOOD BOY\n\n");
+ }
+ 
+ else if (percentage<=69 && percentage >=60){
+     printf ("\nGRADE == B\n\nBEHAVIOUR ==GOOD BOY\n\n");
+ }
+ 
+ else if (percentage<=59 && percentage >=50){
+     printf ("\nGRADE == C+\n\nBEHAVIOUR ==GOOD BOY\n\n");
+ }
+ 
+ else if (percentage<=49 && percentage >=40){
+     printf ("\nGRADE == C\n\nBEHAVIOUR ==GOOD BOY\n\n");
+ }
+ 
+ else if (percentage<=39 && percentage >=30){
+     printf ("\nGRADE == D+\n\nBEHAVIOUR == GOOD BOY\n\n");
+ }
+ 
+ else if (percentage<=29 && percentage >=20){
+     printf ("\nGRADE == D\n\nBEHAVIOUR == GOOD BOY\n\n");
+ }
+ 
+ else if (percentage<=19 && percentage >=10){
+     printf ("\nGRADE == E+\n\nBEHAVIOUR == GOOD BOY\n\n");
+ }
+ 
+ else if (percentage<=9 && percentage >=0){
+     printf ("\nGRADE == E\n\nBEHAVIOUR == GOOD BOY\n\n");
+ }
+ 
+ else {
+     printf ("ERROR ERROR & ERROR\n\nNO SUCH TYPE OF PERCENTAGE EXSIST\n");
+ }
+ int thanks;
+ printf("THANK YOU FOR GIVING YOUR VALUEABLE TIME🙏🙏 \n\nOUR REGARD IS WITH YOU🙏🙏\n\nVISIT AGAIN YOU PARENTS ARE OUR FAMILY🙏🙏\n\nSO PLEASE PLEASE VISIT AGAIN🙏🙏\n\nTHANK YOU VERY MUCH🙏🙏\n\nFROM SCHOOL STAFF🙏🙏\n\n#SVM RAMBAGH🙏🙏");
+ return 0;
+ }

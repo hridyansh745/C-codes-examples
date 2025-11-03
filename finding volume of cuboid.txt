@@ -1,0 +1,18 @@
+#include <stdio.h>
+//finding volume of  where length breadth width is given
+int main (){
+    int length;
+    printf ("enter length");
+    scanf (" %d",&length);
+    
+    int breadth;
+    printf ("enter breadth");
+    scanf("%d",&breadth);
+    
+    int width;
+    printf ("enter width");
+    scanf("%d",&width);
+    
+    printf ("the area is: %d", length* breadth* width);
+    return 0;
+}

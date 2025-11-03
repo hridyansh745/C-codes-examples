@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include<math.h>
+// ASSIGNMENT OPERATORS EXAMPLE
+
+int main() {
+
+int a;
+printf ("enter A =");
+scanf ("%d",&a);
+
+int b;
+printf ("enter B =");
+scanf ("%d",&b);
+
+printf ("HERE IS YOUR ANSWER = %d", a +=b);
+
+    return 0;
+}
